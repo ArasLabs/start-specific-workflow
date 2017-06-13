@@ -1,0 +1,30 @@
+﻿<AML>
+ <Item type="List" id="895F3F8E88B14BBAB34BEAFB5C5B5689" action="add">
+  <classification>/*</classification>
+  <description>List of mapping Product Lines to Workflow Map</description>
+  <name>Product Line Workflow List</name>
+  <Relationships>
+   <Item type="Value" id="B33A39C973ED4D58A2DE67D3274953F9" action="add">
+    <classification>/*</classification>
+    <label xml:lang="en">ECR</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Product Line Workflow List" type="List">895F3F8E88B14BBAB34BEAFB5C5B5689</source_id>
+    <value>Product1</value>
+   </Item>
+   <Item type="Value" id="915E9BB14931418DB91B359087246F95" action="add">
+    <classification>/*</classification>
+    <label xml:lang="en">ECR2</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Product Line Workflow List" type="List">895F3F8E88B14BBAB34BEAFB5C5B5689</source_id>
+    <value>Product2</value>
+   </Item>
+   <Item type="Value" id="DB9F1340FF6146BD98C80FC1861E04F7" action="add">
+    <classification>/*</classification>
+    <label xml:lang="en">ECR3</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Product Line Workflow List" type="List">895F3F8E88B14BBAB34BEAFB5C5B5689</source_id>
+    <value>Product3</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

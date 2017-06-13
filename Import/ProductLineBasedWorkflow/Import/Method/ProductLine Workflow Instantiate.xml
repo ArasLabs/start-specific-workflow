@@ -1,0 +1,32 @@
+﻿<AML>
+ <Item type="Method" id="7D4E1052F56840AB8AC622F3512A7DF2" action="add">
+  <classification>/*</classification>
+  <comments>Method to instantiate Workflow based on Product Line property selected</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[
+string productLine = this.getProperty("product_line");
+Item queryListItem = this.newItem("List","get");
+queryListItem.setAttribute("select","name");
+queryListItem.setProperty("name", "Product Line Workflow List");
+
+Item relatedItem = this.newItem("Value","get");
+relatedItem.setAttribute("select","label,value");
+relatedItem.setProperty("value", productLine);
+queryListItem.addRelationship(relatedItem);
+Item listWithLabelValue = queryListItem.apply();
+Item relatedResults = listWithLabelValue.getRelationships();
+Item firstResult = relatedResults.getItemByIndex(0);
+string workflowMapName = firstResult.getProperty("label");
+
+Item wfmQuery = this.newItem("Workflow Map", "get");
+wfmQuery.setAttribute("select", "id");
+wfmQuery.setProperty("name", workflowMapName);
+Item wfmResults = wfmQuery.apply();
+string wfm_id = wfmResults.getProperty("id");
+Item wfm_process = this.instantiateWorkflow(wfm_id);
+wfm_process.startWorkflow();
+return this;]]></method_code>
+  <method_type>C#</method_type>
+  <name>ProductLine Workflow Instantiate</name>
+ </Item>
+</AML>
