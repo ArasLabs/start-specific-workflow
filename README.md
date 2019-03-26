@@ -15,8 +15,8 @@ Release | Notes
 
 Project | Aras
 --------|------
-[v1.0.1](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v1.0.1) | 9.2+, 10.0+, 11.0+
-[v1](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v1) | 9.2.0 SP3
+
+[v1](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v1) | Aras 11 SP12
 
 ## Installation
 
