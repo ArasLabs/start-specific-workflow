@@ -24,7 +24,7 @@ wfmQuery.setProperty("name", workflowMapName);
 Item wfmResults = wfmQuery.apply();
 string wfm_id = wfmResults.getProperty("id");
 Item wfm_process = this.instantiateWorkflow(wfm_id);
-wfm_process.startWorkflow();
+wfm_process.apply("startWorkflow");
 return this;]]></method_code>
   <method_type>C#</method_type>
   <name>ProductLine Workflow Instantiate</name>
