@@ -8,7 +8,7 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
-[v2.0.0](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v2.0.0) | Workflow Method Update
+[v2.0.0](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v2.0.0) | Workflow Method Update. Tested on Aras 11.0 SP12 and SP15.
 [v1](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v1) | Initial Release
 
 #### Supported Aras Versions
