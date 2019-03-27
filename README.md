@@ -15,7 +15,6 @@ Release | Notes
 
 Project | Aras
 --------|------
-[v2.0.1](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v2.0.1) | Compatibility check with latest version: 11.0 SP15
 [v2.0.0](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v2.0.0) | Aras 9.2+, 10.0+, 11.0+ 
 [v1](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v1) | Aras 9.2.0 SP3
 
