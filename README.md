@@ -8,7 +8,6 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
-[v2.0.1](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v2.0.1) | Compatibility check with latest versions
 [v2.0.0](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v2.0.0) | Workflow Method Update
 [v1](https://github.com/ArasLabs/start-specific-workflow/releases/tag/v1) | Initial Release
 
